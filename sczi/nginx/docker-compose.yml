@@ -13,7 +13,7 @@ services:
       # URL field must be working since nginx only starts if letsencrypt works
       URL: vtluug.org
       SUBDOMAINS: www,bash,id,irc,sczi,wiki,element,search,matrix,git,bitwarden,soulseek,seed,openwebui
-      EXTRA_DOMAINS: gobblerpedia.org,www.gobblerpedia.org,hokieprivacy.org,www.hokieprivacy.org,distributions.pconte.me
+      EXTRA_DOMAINS: gobblerpedia.org,www.gobblerpedia.org,hokieprivacy.org,www.hokieprivacy.org,distributions.pconte.me,localhunter.org
       VALIDATION: html # TODO Switch to dns + gandi api once pr is merged
       TZ: America/New_York
     volumes:
